@@ -82,6 +82,9 @@
         max-width: 100%;
         height: auto;
       }
+      .about_desc p{
+        width: 345px;
+      }
       .counter-item h4 {
         font-size: 25px;
       }
@@ -225,8 +228,11 @@
         width: 96%;
       }
        #feature{
-         grid-template-columns: repeat(3, 1fr);
+         grid-template-columns: repeat(2, 1fr);
        }
+       .about {
+        flex-direction: column;
+      }
        #feature .feature-item {
         padding: 49px 20px;
       }
@@ -260,16 +266,17 @@
        .counter-item h4{
          text-align: center;
        }
-       .about_img img{
-         max-width: 300px;
-         height: auto;
-       }
+       .about_img img {
+        max-width: 100%;
+        height: auto;
+      }
        .counter-item h4 {
          font-size: 25px;
        }
        #apply-section {
-         width: 527px;
-       }
+        width: 404px;
+        margin: 0 auto;
+      }
        #apply-section h2{
          font-size: 30px;
        }
